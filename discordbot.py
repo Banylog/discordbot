@@ -2,8 +2,6 @@ import discord
 from discord.ext import commands
 from collections import defaultdict
 
-TOKEN = ""
-
 bot = commands.Bot(command_prefix="/", intents = discord.Intents.all())
 
 strikes = {}
