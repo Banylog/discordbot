@@ -1,8 +1,11 @@
 import discord
 from discord.ext import commands
 from collections import defaultdict
+import os
 
 bot = commands.Bot(command_prefix="/", intents = discord.Intents.all())
+
+TOKEN = os.environ['token']
 
 strikes = {}
 
